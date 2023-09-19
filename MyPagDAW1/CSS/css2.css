@@ -1,0 +1,341 @@
+/*Barra*/
+html{
+overflow: scroll;
+overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+@font-face {
+  font-family:Hades;
+  src: url("../Fonts/HadesFont.ttf");
+}
+@font-face {
+  font-family:Spectral;
+  src: url("../Fonts/SpectralSC-Light.ttf");
+}
+
+.body1 {
+	background-image: url("../img/hades3.png");
+  background-attachment: fixed;
+}
+.body2 {
+	background-image: url("../img/hades2.png");
+  background-attachment: fixed;
+}
+.body3 {
+	background-image: url("../img/hades11.png");
+  background-attachment: fixed;
+}
+.body4 {
+	background-image: url("../img/hades5.png");
+  background-attachment: fixed;
+}
+.body5 {
+	background-image: url("../img/hades9.png");
+  background-attachment: fixed;
+}
+nav {
+	margin-top:0px;
+	position: relative;
+	text-transform: uppercase;
+}
+.tabla li {
+  display: inline-block;
+  list-style: outside none;
+  margin: 8px 8px;
+
+}
+
+.tabla a {
+  color: lightgrey;
+  position: relative;
+  font-size: 25px;
+  font-style: italic;
+  font-family:Hades;
+  
+}
+
+
+.tabla{
+  position:static;
+}
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+nav > ul > li {
+	float:left;
+}
+
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:10px 20px;
+}
+
+	
+
+nav > ul > li:hover div {
+	display:table;
+}
+/*Tablas*/
+
+.div1{
+  height: 1px;
+  width: 11%;
+  border-top: 5px solid rgb(185, 25, 25,0.7);
+  position:fixed;
+  
+}
+.div2{
+  height: 1px;
+  width: 11%;
+  border-top: 5px solid rgb(32, 178, 170,0.7);
+  position:fixed;
+}
+.div3{
+  height: 1px;
+  width: 11%;
+  border-top: 5px solid rgb(0, 128, 0,0.7);
+  position:fixed;
+}
+.div4{
+  height: 1px;
+  width: 11%;
+  border-top: 5px solid rgba(34, 24, 126, 0.7);
+  position:fixed;
+}
+.div5{
+  height: 1px;
+  width: 11%;
+  border-top: 5px solid rgb(45, 45, 90,0.7);
+  position:fixed;
+}
+
+.div{
+  color: rgb(255, 255, 255);
+  margin-right: 15%;
+  margin-left:  20%;
+  font-size: 30px;
+  font-family:Spectral;
+}
+.Bienvenidos{
+  font-family: Hades;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.inicio{
+  margin-right: 1%;
+  margin-left: 1%;
+  font-size: 25px;
+}
+.Sitios{
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.t{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.6) ;
+  border: 10px rgba(0, 0, 0, 0.6) solid;
+  border-radius: 2%;
+}
+
+
+.video1{
+  margin-right: 1%;
+  margin-left: 5%;
+}
+.divv{
+	color: rgb(255, 255, 255);
+	margin-right: 15%;
+	margin-left:  20%;
+	font-size: 30px;
+	font-family:Spectral;
+
+}
+.textop{
+  margin-left: 5%;
+}
+.textopp{
+  margin-left: 20%;
+}
+.CoLinks {
+  color:rgb(0, 255, 170);
+}
+
+.CoLinks2 {
+  color:#EFBD85;
+}
+.CoLinks3 {
+  color:#1f95a7;
+}
+.CoLinks4 {
+  color:rgb(183, 4, 254);
+}
+
+.boton{
+  margin-right: 90%;
+  margin-left:  33.5%;
+  display: block;
+  width: 35.7%;
+  font-family:Spectral;
+  text-decoration: none;
+  text-align: center;
+  color:rgb(136, 9, 186);
+}
+.boton2{
+  margin-right: 90%;
+  margin-left:  40%;
+  width: 60%;
+  font-family:Spectral;
+  text-align: center;
+  color:#1f95a7;
+}
+.boton3{
+  margin-right: 90%;
+  margin-left:  3%;
+  width: 35.7%;
+  display: block;
+  font-family:Spectral;
+  text-decoration: none;
+  text-align: center;
+  color:rgb(136, 9, 186);
+}
+.divvv{
+    color: rgb(255, 255, 255);
+    margin-right: 15%;
+    margin-left:  20%;
+    font-size: 30px;
+    font-family:Spectral;
+}
+table{
+  text-align: center;
+}
+section{
+  display: flex;
+}
+.divc{
+  flex: 1;
+  margin-left:  20%;
+  font-size: 30px;
+  font-family:Spectral;
+}
+.colorBen{
+  color:#EFC58D;
+}
+.colorH{
+  color:#ba08fb;
+}
+.divcc{
+    flex: 2;
+    color: rgb(255, 255, 255);
+    margin-right: 10%;
+    margin-left:  15%;
+    font-size: 30px;
+    font-family:Spectral;
+}
+.dix{
+  color: rgb(255, 255, 255);
+  margin-right: 20%;
+  margin-left:  20%;
+  float: auto;
+}
+fieldset{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+td, th{
+border: 2px solid white;
+padding: 20px;
+}
+.fieldset{
+  font-size: 15px ;
+  font-family:Spectral;
+  margin-top: 5%;
+  margin-right: 90%;
+  margin-left:  35%;
+  border-width: 20px;
+  border-color: purple;
+}
+.fieldset1{
+  font-size: 20px;
+  font-family: hades;
+  color: #c374e0;
+}
+.field{
+  font-family: Hades;
+  font-size: 70px;
+}
+.imgg{
+  float: right;
+}
+.img1{
+  opacity: 0.8;
+}
+.img2{
+  margin-left: 25% ;
+}
+.table1{
+  color: rgb(153, 16, 222);
+  border-color:rgb(88, 30, 146,0.6);
+  border-width: 3px;
+}
+.table2{
+  color: rgb(16, 222, 122);
+  border-color:rgb(42, 152, 124,0.6);
+  border-radius: 2%;
+  width: 300px;
+  margin-left:20%;
+  font-size: 40px;
+}
+.table22{
+  color: rgb(16, 222, 122);
+  border-color:rgb(42, 152, 124,0.6);
+  border-radius: 2%;
+  width: 300px;
+  margin-left:1%;
+}
+.table222{
+  color: rgb(16, 222, 122);
+  border-color:rgb(42, 152, 124,0.6);
+  border-radius: 2%;
+  width: 300px;
+  margin-left:23%;
+  font-size: 40px;
+}
+
+.table3{
+  color: rgb(16, 222, 122);
+  border-color:rgb(42, 152, 124,0.6);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.table4{
+  color: rgb(88, 189, 111);
+  border-color:rgb(14, 114, 38,0.6);
+  margin-left: 5%;
+  margin-right: 5%;
+  border-width: 3px;
+}
+.mapa{
+  margin-left: 25%;
+  font-family: Hades;
+  font-size: 80px;
+}
+ol{
+  font-size: 30px;
+  margin-right: 30%;
+
+}
+.ol{
+  font-size: 35px;
+  margin-right: 0%;
+}
