@@ -1,0 +1,467 @@
+@font-face {
+    font-family: Pokemon;
+    src: url("../Fonts/PocketMonk-15ze.ttf");
+}
+
+@font-face {
+    font-family: Poke;
+    src: url("../Fonts/PokemonClassic.ttf");
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-image: url("../img/fondo.jpeg");
+    background-attachment: fixed;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cabecera {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cabecera a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    font-family: poke;
+    padding: 5px;
+    margin: 8px;
+}
+
+.cabecera a:hover {
+    color: rgb(197, 16, 16);
+}
+
+.menu li {
+    display: inline-block;
+    list-style: outside none;
+    margin: 8px 8px;
+    grid-area: area2;
+}
+
+.menu a {
+    position: relative;
+    font-size: 9px;
+    font-style: italic;
+    text-align: center;
+    font-family: poke;
+}
+
+.menu a:hover {
+    color: rgb(197, 16, 16);
+}
+
+.menu-contacto li {
+    display: inline-block;
+    list-style: outside none;
+    margin: 8px 8px;
+    grid-area: area2;
+}
+
+.menu-contacto a {
+    position: relative;
+    font-size: 9px;
+    font-style: italic;
+    text-align: center;
+    font-family: poke;
+}
+
+.menu-contacto a:hover {
+    color: rgb(197, 16, 16);
+}
+nav {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    overflow: hidden;
+    border-top: 5px solid rgba(185, 169, 25, 0.7);
+    border-bottom: 5px solid rgba(185, 169, 25, 0.7);
+    margin-top: 10px;
+    background-color: rgba(68, 68, 61, 0.284);
+    border-radius: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 5px;
+
+}
+
+.contenedor-juegos {
+    width: 8.5%;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 100px 500px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    grid-template-areas:
+        'area2 area1 area1 area1 area1'
+        'area2 area3 area3 area3 area3'
+        'area2 area3 area3 area3 area3';
+}
+
+.contenedor-contactos {
+    width: 8.5%;
+    position: absolute;
+}
+
+.logo {
+    background-color: rgba(91, 93, 92, 0.511);
+    border-radius: 90px;
+    margin-left: 6px;
+    width: 130px;
+}
+.logo:hover{
+    transition:transform 2s;
+    transform: rotate(360deg);
+}
+
+.logos {
+    background-color: rgba(91, 93, 92, 0.511);
+    border-radius: 90px;
+}
+
+
+.titulo {
+    color: yellow;
+    font-size: 80px;
+    font-family: Pokemon;
+    text-shadow: -5px -5px 4px rgb(21, 65, 212), 5px 5px 4px rgb(21, 65, 212), -5px 5px 4px rgb(21, 65, 212), 5px -5px 4px rgb(21, 65, 212);
+    margin-bottom: 300px;
+
+}
+
+.titulo-juegos {
+    color: yellow;
+    font-size: 70px;
+    font-family: Pokemon;
+    text-shadow: -5px -5px 4px rgb(21, 65, 212), 5px 5px 4px rgb(21, 65, 212), -5px 5px 4px rgb(21, 65, 212), 5px -5px 4px rgb(21, 65, 212);
+    margin-left: 380px;
+    grid-area: area1;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(68, 68, 61, 0.284);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 5px solid rgba(185, 169, 25, 0.7);
+    border-bottom: 5px solid rgba(185, 169, 25, 0.7);
+    transition: transform 0.5s; 
+}
+
+.lista ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista li {
+    margin: 5px;
+    transition: transform 0.5s; 
+}
+.pagina-juegos:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s; 
+}
+.pagina-contactos:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s; 
+}
+.pagina-nosaltres:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s; 
+}
+
+.encabezado {
+    position: sticky;
+    top: 0;
+}
+.titulo-contacto {
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    height: 34px;
+    background-color: rgb(255, 204, 0);
+    font-family: Poke;
+    border-radius:20px;
+}
+
+
+.body-contacto {
+    font-family: poke;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-contactos {
+    background-color: rgb(73, 71, 71);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    max-height: 650px;
+    width: 100%;
+    color: white;
+}
+
+#formulario {
+    max-width: 400px;
+    margin: auto;
+}
+
+.preguntas-form {
+    margin-bottom: 10px;
+}
+
+.etiqueta {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(255, 204, 0);
+    color: #333;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(255, 219, 77);
+}
+
+.tabla {
+    width: 50%; 
+    font-size: 16px; 
+    font-family: poke;
+    margin-left: 200px;
+    margin-top: 30px;
+    grid-area: area3;
+}
+.tabla th, td {
+    border: 3px solid white; 
+    text-align: left;
+    padding: 12px; 
+    border-radius:10px;
+    background-color: rgba(226, 223, 21, 0.678);
+}
+.tabla th {
+    background-color: rgba(212, 76, 87);
+    color:white;
+}
+.tabla tr {
+    color:rgb(0, 0, 0);
+}
+.portadas{
+    width: 100%;
+    height: 100%;
+}
+.Portada{
+    background-color: black !important ;
+}
+
+.body-nosaltres {
+    margin: 0;
+    padding: 0;
+    font-family: poke;
+    background-image: url("../img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contenedor-nosaltres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-nosaltres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333333;
+    width: 1540px;
+}
+.menu-nosaltres a {
+    width: 200px;
+}
+
+.menu-nosaltres a:hover {
+    color: rgb(197, 16, 16);
+}
+.menu-nosaltres h2{
+    font-size: 40px;
+    text-shadow: -2px -2px 1px rgb(212, 209, 21), 2px 2px 1px rgb(212, 209, 21), -2px 2px 1px rgb(212, 209, 21), 2px -2px 1px rgb(212, 209, 21);
+}
+
+.nosotros {
+    width: 80%;
+    margin: 30px;
+    margin-left: 100px;
+    text-align: justify;
+    color: rgb(75, 15, 15);
+}
+.miembro-equipo {
+    text-align: right;
+}
+@media (max-width: 768px) {
+    .titulo {
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: Pokemon;
+        margin-bottom: 300px;
+    }
+
+    .titulo-juegos {
+        margin-left: 120px;
+        font-size: 20px;
+    }
+
+    .titulo-contacto {
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        height: 30px;
+    }
+
+    .logo {
+        margin-left: 10px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .logos {
+        margin-left: 10px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    nav ul {
+        margin-top: 5px;
+        width: 70px;
+    }
+
+    .lista li a {
+        margin: 0 10px;
+        font-size: 10px;
+    }
+
+    .lista {
+        width: 50px;
+        margin-left: 28px;
+    }
+
+    .lista ul li a {
+        font-size: 7px;
+    }
+
+
+    .tabla {
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 50px;
+    }
+
+    .formulario {
+        margin-top: 100px;
+        width: 50%;
+        height: 470px;
+    }
+
+    .menu li a {
+        font-size: 5px;
+        padding: 0;
+    }
+    .menu-contacto{
+        width: 320px;
+    }
+    .tabla {
+        font-size: 8px; 
+    }
+    .tabla th, td {
+        border: 1px solid white; 
+        text-align: left;
+        padding: 12px; 
+        border-radius:10px;
+    }
+    .tabla th {
+        background-color: rgba(212, 76, 87);
+    }
+    .body-nosaltres {
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+    .menu-nosaltres {
+        width: 410px;
+    }
+    .menu-nosaltres h2{
+        font-size: 15px;
+    }
+    .menu-nosaltres ul, li, a{
+        font-size: 6px;
+    }
+    .nosotros{
+        font-size: 8px;
+        margin-left: 40px;
+    }
+    #imagen-miembro{
+        width: 100px;
+    }
+    .menu-nosaltres a {
+        width: 60px;
+    }
+    .menu-nosaltres h2 {
+        width: 110px;
+    }
+    .contenedor-contactos {
+        width: 80%;
+    }
+    #formulario {
+        min-width: auto;
+    }
+}

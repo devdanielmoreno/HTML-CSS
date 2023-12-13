@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="CSS/css.css" />
+</head>
+<body class="body-contacto">
+    <div class="contenedor-contactos">
+        <nav class="menu-contacto">
+            <a href="index.html"><img class="logo" src="img/logo.png" width="130"></a>
+            <ul class="menu-contacto">
+                <li class="pagina-juegos"><a href="juegos.html">Juegos</a></li>
+                <li class="pagina-nosaltres"><a href="nosaltres.html">Nosotros</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1 class="titulo-contacto">Contacto</h1>
+        </header>
+
+        <form id="formulario">
+            <div class="preguntas-form">
+                <label class="etiqueta"for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="preguntas-form">
+                <label class="etiqueta" for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="preguntas-form">
+                <label class="etiqueta" for="favorite-game">Juego de Pokémon favorito:</label>
+                <input type="text" id="favorite-game" name="favorite-game" required>
+            </div>
+
+            <div class="preguntas-form">
+                <label class="etiqueta" for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
